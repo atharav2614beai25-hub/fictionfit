@@ -1,0 +1,21 @@
+/* DESIGN TOKENS: every colour, font and spacing value lives here.
+   Change a value once and the whole site updates. */
+:root {
+  --ink: #141217;       /* page background */
+  --ink-2: #1e1b22;     /* raised surfaces */
+  --bone: #ece5d8;      /* main text */
+  --ash: #9a9387;       /* secondary text */
+  --line: rgba(236, 229, 216, 0.16);
+  --accent: #d12b34;    /* overridden per collection with inline style */
+  --panel: #2b0d12;
+
+  --font-display: 'Big Shoulders Display', 'Arial Narrow', Impact, sans-serif;
+  --font-body: 'Instrument Sans', system-ui, sans-serif;
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 3rem;
+  --space-5: 5rem;
+  --gutter: clamp(1rem, 4vw, 3rem);
+}
